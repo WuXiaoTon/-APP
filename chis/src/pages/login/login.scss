@@ -1,0 +1,79 @@
+
+page-login{
+    // ion-header{
+    //     background-color:transparent;
+    // }
+    // ion-content{
+    //     text-align: center;
+    //     background-image: url(../assets/imgs/login.png);
+    //     background-repeat:no-repeat;
+    //     background-size:100% 100%;
+    // }
+    // ion-item{
+    //     width:90%;
+    //     text-align: center;
+    // }
+    // .login_logo{
+    //     margin-top: 80px;
+    //     text-align: center;
+    // }
+    // .login_logo img{
+    //     width: 40%;
+    // }
+    // .login_logo p{
+    //     color: #fff;
+    // }
+
+    .login_inp{
+        margin-top: 80px;
+        width: 90%
+    }
+    .login_inp ion-label{
+        height:30px;
+        padding-top: 5px;
+        width: 6rem;
+    }
+    // .login_inp input{
+    //     color:rgb(222,222,222);
+    // }
+
+    
+    // #goback{
+    //     float: left;
+    //     height:30px;
+    // }
+    input{
+        line-height: 30px;
+    }
+    .login-input{
+        height:40px;
+        width:200px;
+    }
+    #login-list{
+        font-size: 20px;
+        margin-top: 20%;
+        text-align: center;
+    }
+    #logbtn1{
+        height:40px;
+        width: 60%;
+        font-size: 17px;
+        // background-color: #fedb47;
+    }
+    // #logbtn2{
+    //     height:40px;
+    //     width: 80%;
+    //     margin-top:15px;
+    //     font-size: 17px;
+        // background-color:transparent;
+        // color: #fedb47;
+        // border:3px solid #fedb47;
+    // }
+    .warning{
+        padding-top: 5px;
+        padding-left: 30%;
+        height:1.5em;
+        color: red;
+    }
+} 
+

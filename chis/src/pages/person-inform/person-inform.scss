@@ -1,0 +1,36 @@
+page-person-inform {
+    .bar h2{
+        margin-left:20%;
+    }
+    .title{
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
+    .sign{
+        border-bottom: 1px solid #DADADA;
+    }
+    .sign_content{
+        width: 100%;
+    }
+    .title_sign{
+        margin-left: 0.5em;
+        margin-top: 1em;
+        overflow: inherit;
+        font-size: 1.4rem;
+        line-height: normal;
+        text-overflow: inherit;
+     color: #666;
+    }
+    .sign_content p{
+        width: 80%;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
+        margin-left: 10%;
+        font-size: 1.6rem;
+        font-weight: normal;
+        text-align: left;
+        text-indent:2em;
+    }
+}

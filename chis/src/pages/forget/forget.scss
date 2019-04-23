@@ -1,0 +1,37 @@
+page-forget {
+    .title{
+        float: left;
+    }
+    .login_inp{
+        margin-top: 80px;
+        width: 90%
+    }
+    .login_inp ion-label{
+        height:30px;
+        padding-top: 5px;
+        width: 6rem;
+    }
+    input{
+        line-height: 30px;
+    }
+    .login-input{
+        height:40px;
+        width:200px;
+    }
+    #login-list{
+        font-size: 20px;
+        margin-top: 20%;
+        text-align: center;
+    }
+    #logbtn1{
+        height:40px;
+        width: 60%;
+        font-size: 17px;
+    }
+    .warning{
+        padding-top: 5px;
+        padding-left: 30%;
+        height:1.5em;
+        color: red;
+    }
+}

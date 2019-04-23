@@ -1,0 +1,46 @@
+<!--
+  Generated template for the ForgetPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar color="history">
+    <ion-title>注册</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <form>
+        <div class="login_inp">
+          <div class="warning"></div>
+          <ion-item>
+            <ion-label icon-only>
+              <p>账户</p>
+            </ion-label>
+            <ion-input type="text" placeholder="请输入账户名"></ion-input>
+          </ion-item>
+          <div class="warning"></div>
+          <ion-item>
+            <ion-label icon-only>
+                <p>密码</p>
+            </ion-label>
+            <ion-input type="password" placeholder="请输入您的密码" #password></ion-input>
+          </ion-item>
+          <div class="warning"></div>
+          <ion-item>
+              <ion-label icon-only>
+                  <p>确认密码</p>
+              </ion-label>
+              <ion-input type="password" placeholder="再次输入您的密码" #password></ion-input>
+            </ion-item>
+        </div>
+
+    <div class="list" id="login-list">
+        <button ion-button id="logbtn1" (click)="login(username.value,password.value)">注册</button>
+      </div>
+    </form>
+</ion-content>

@@ -1,0 +1,33 @@
+page-topic-detail {
+    .title{
+        float: left;
+    }
+    .user_time{
+        margin-top: -1em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+    .topic_content{
+        text-indent: 2em;
+        padding-bottom: 2em;
+    }
+    .reply_bar{
+        text-align: center;
+        padding: 1em 0;
+        border-bottom: 1px solid #DADADA;
+        border-top: 1px solid #DADADA;
+    }
+    .reply_bar p{
+        color:rgb(87, 158, 206);
+    }
+    .reply_bar ion-icon{
+        margin-right: 1em;
+    }
+    .reply{
+        padding: 0.5em 0;
+        border-bottom: 1px solid #DADADA;
+    }
+    .reply_content{
+        text-indent: 2em;
+    }
+}

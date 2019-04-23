@@ -1,0 +1,73 @@
+<!--
+  Generated template for the PersonPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+<!-- color="history"-->
+  <ion-navbar>
+    <ion-title>个人中心</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content class="user">
+  <div class="all">
+  <div class="top_else">
+  <div class="user_msg"><!--<button ion-button round>编辑资料</button>-->
+    <div class="header">
+      <img src="assets/imgs/yonghu_head.png">
+    </div>
+    <div class="information">
+      <div class="user_msg_vertical">
+      <h2>用户1203</h2>
+      <h3>历史文化初学者一枚，希望能和大家一起开心地学习。</h3>
+    </div>
+    </div>
+    <ion-icon name="right"  style="float:right;line-height:110px;margin-right:1em;" (click)="information()"></ion-icon>
+    <br class="clear"/>
+  </div>
+  <div class="mine" inset>
+  <!--
+  <ion-list class="mine" inset>
+    <button ion-item *ngFor="let button1_3 of button1_3;let id = index" (click)="mybtn1(id)">
+      <img src="{{button1_3.src}}" alt="">
+      <h2>
+        {{button1_3.name}}
+        <ion-icon name="arrow-forward"  style="float:right;"></ion-icon></h2>
+    </button>
+  </ion-list>
+  <ion-list class="button4_9" inset>
+    <button ion-item *ngFor="let button4_9 of button4_9;let id = index" (click)="mybtn2(id)">
+      <img src="{{button4_9.src}}" alt="">
+      <h2>
+        {{button4_9.name}}
+        <ion-icon name="arrow-forward"  style="float:right;"></ion-icon>
+      </h2>
+    </button>
+    <button ion-item *ngFor="let button1_3 of button1_3;let id = index" (click)="mybtn1(id)">
+      -->  
+      <button ion-item  id = "index" (click)="goMyTopic()">
+          <img src="assets/imgs/topic_page.png" alt="topic_page">
+        <h2>
+          我的帖子
+          <ion-icon name="right"  style="float:right;"></ion-icon>
+          </h2>
+      </button>
+      <button ion-item  id = "index">
+          <img src="assets/imgs/shezhi.png" alt="shezhi">
+        <h2>
+          软件设置
+          <ion-icon name="right"  style="float:right;"></ion-icon>
+          </h2>
+      </button>
+    </div>
+  </div>
+ <!-- </ion-list>-->
+    <div class="exit_button">
+      <button ion-button outline (click)="exit()">退出登录</button>
+    </div>
+  </div>
+</ion-content>

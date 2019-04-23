@@ -1,0 +1,35 @@
+page-person-topic {
+    .title{
+        float: left;
+    }
+    .clear{
+        clear: both;
+    }
+    .lists{
+        width: 100%;
+        border-bottom: 1px solid #DADADA;
+        padding: 0.5em 1.5em;
+    }
+    .user_time img{
+        height: 30px;
+    }
+    .user_time h6{
+        line-height: 36px;
+        margin-left: 2.5em;
+    }
+    .user_time p{
+        line-height: 36px;
+    }
+    .topic_content{
+        text-indent: 1em;
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+    }
+    .delete_button{
+        text-align: right;
+    }
+    .delete_button button{
+        height: 30px;
+    }
+}

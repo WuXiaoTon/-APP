@@ -1,0 +1,49 @@
+<!--
+  Generated template for the PersonInformPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>个人资料</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+  <ion-list class="inform" inset>
+    <button ion-item class="bar">
+        <p class="title">账号</p>
+        <h2>
+          lixm
+        </h2>
+    </button>
+    <button ion-item (click)="goInformDetail()" class="bar">
+        <p class="title">昵称</p>
+        <h2>
+          用户1203
+          <ion-icon name="right"  style="float:right;"></ion-icon>
+        </h2>
+    </button>
+    <button ion-item (click)="goInformDetail()" class="bar">
+        <p class="title">性别</p>
+        <h2>
+          男
+          <ion-icon name="right"  style="float:right;"></ion-icon>
+        </h2>
+    </button>
+    <button class="sign" (click)="goInformDetail()">
+        <p class="title title_sign">个性签名</p>
+        <br class="clear"/>
+        <div class="sign_content">
+          <ion-icon name="right"  style="float:right;margin-right:0.7em;"></ion-icon>
+          <p>历史文化初学者一枚，希望能和大家一起开心地学习。</p>
+          
+        </div>
+    </button>
+  </ion-list>
+
+</ion-content>

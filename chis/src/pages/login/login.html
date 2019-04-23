@@ -1,0 +1,66 @@
+<!--
+<ion-header>
+    <ion-navbar bar-stable>
+      <ion-title>
+        登录
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content>
+      <div class="login_logo">
+          <img src="assets/imgs/ziyalogo.png" alt="">
+          <p on-tap="MyLogin()">全球不良资产超级综合服务平台</p>
+      </div>
+      <form>
+          <div class="login_inp">
+            <ion-item>
+              <ion-label icon-only><ion-icon name="person"></ion-icon></ion-label>
+              <ion-input type="text" placeholder="请输入您的手机号" #username></ion-input>
+            </ion-item>
+            <ion-item>
+              <ion-label icon-only><ion-icon name="lock"></ion-icon></ion-label>
+              <ion-input type="password" placeholder="请输入您的密码" #password></ion-input>
+            </ion-item>
+          </div>
+
+      <div class="list" id="login-list">
+          <button ion-button round id="logbtn1" (click)="login(username.value,password.value)">登录</button>
+          <br/>
+          <button ion-button round id="logbtn2" (click)="goRegister()">注册</button>
+          <p style="color:white;font-size:15px;" (click)="goForget()">忘记密码？</p>
+        </div>
+      </form>
+    </ion-content>
+  -->
+  <ion-header >
+      <ion-toolbar color="history">
+        <ion-title>登录</ion-title>
+      </ion-toolbar>
+    </ion-header>
+  <ion-content>
+      <form>
+          <div class="login_inp">
+            <div class="warning"></div>
+            <ion-item>
+              <ion-label>
+                <p>账户</p>
+              </ion-label>
+              <ion-input type="text" placeholder="请输入账户名"></ion-input>
+            </ion-item>
+            <div class="warning"></div>
+            <ion-item>
+              <ion-label icon-only>
+                  <p>密码</p>
+              </ion-label>
+              <ion-input type="password" placeholder="请输入您的密码" #password></ion-input>
+            </ion-item>
+          </div>
+
+      <div class="list" id="login-list">
+          <button ion-button id="logbtn1" (click)="login(username.value,password.value)">登录</button>
+          <br/>
+          <p style="font-size:15px;color:rgb(87, 158, 206);" (click)="goForget()">注册账号</p>
+        </div>
+      </form>
+  </ion-content>

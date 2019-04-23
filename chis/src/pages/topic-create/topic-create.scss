@@ -1,0 +1,33 @@
+page-topic-create {
+    .title{
+        float: left;
+    }
+    .all{
+        width: 100%;
+    }
+    .all textarea{
+        width: 90%;
+        margin-left: 5%;
+    }
+    .content{
+        margin-top: 1em;
+    }
+    .topic_title{
+        width: 90%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 5%;
+        border: 1px solid #DADADA;
+    }
+    .ok_button{
+        float:right;
+        height: 2em;
+        width: 3em;
+        margin-right: 1em;
+        border: 1px solid white;
+        margin-top: 10px;
+    }
+    .bar_title{
+        line-height: 50px;
+    }
+}

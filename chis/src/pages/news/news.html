@@ -1,0 +1,88 @@
+<!--
+  Generated template for the NewsPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<!--
+<ion-header>
+  <ion-navbar color="history" #content>
+    <ion-title>社区</ion-title>
+  </ion-navbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-list-header>今天</ion-list-header>
+    <ion-item on-tap="msgIn()">
+      <ion-avatar item-start>
+        <img src="assets/imgs/logo.png">
+      </ion-avatar>
+      <h2>Ionic</h2>
+      <p>Build amazing apps in one codebase, for any platform, with the web.</p>
+      <ion-note item-end>00:00</ion-note>
+    </ion-item>
+    <ion-item on-tap="msgIn()">
+      <ion-avatar item-start>
+        <img src="assets/imgs/logo.png">
+      </ion-avatar>
+      <h2>Ionic</h2>
+      <p>Build amazing apps in one codebase, for any platform, with the web.</p>
+      <ion-note item-end>00:00</ion-note>
+    </ion-item>
+    <ion-item on-tap="msgIn()">
+      <ion-avatar item-start>
+        <img src="assets/imgs/logo.png">
+      </ion-avatar>
+      <h2>Ionic</h2>
+      <p>Build amazing apps in one codebase, for any platform, with the web.</p>
+      <ion-note item-end>00:00</ion-note>
+    </ion-item>
+  </ion-list>
+  <ion-list>
+    <ion-list-header>昨天</ion-list-header>
+    <ion-item on-tap="msgIn()">
+      <ion-avatar item-start>
+        <img src="assets/imgs/logo.png">
+      </ion-avatar>
+      <h2>Ionic</h2>
+      <p>Build amazing apps in one codebase, for any platform, with the web.</p>
+      <ion-note item-end>00:00</ion-note>
+    </ion-item>
+</ion-list>
+</ion-content>
+-->
+<ion-header>
+    <ion-navbar color="history" #content>
+      <ion-title>
+        <p id="community_title">社区</p>
+        <ion-icon name="plus" id="title-search" (click)="goCreate()"></ion-icon>
+        <ion-icon name="search" id="title-search" (click)="goSearch()"></ion-icon>
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  <ion-content>
+    <ion-list>
+        <div class="lists">
+            <div class="user_time">
+                <p style="float:right;">2019-04-05</p>
+                <div>
+                  <img src="assets/imgs/yonghu_head.png" alt="yonghu" style="float:left;">
+                  <h6>隔壁老王</h6>
+                </div>
+            </div>
+            <h6>【讨论】河北的历史事件</h6>
+            <p class="topic_content">今天看了一篇文章，里面讲的是河北在战国时期的一些事件。</p>
+        </div>
+        <div class="lists" (click)="goTopicDetail()">
+            <div class="user_time">
+                <p style="float:right;">2019-04-04</p>
+                <div>
+                  <img src="assets/imgs/yonghu_head.png" alt="yonghu" style="float:left;">
+                  <h6>用户1203</h6>
+                </div>
+            </div>
+            <h6>【求助】郑州有哪些推荐的历史景点</h6>
+            <p class="topic_content">周末想带孩子去学习地区的历史文化，大家推荐一下吧。</p>
+        </div>
+    </ion-list>
+  </ion-content>
