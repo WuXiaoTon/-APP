@@ -3,33 +3,18 @@ import { NavController } from 'ionic-angular';
 import { HelloPage } from '../hello/hello';
 import { ViewChild } from '@angular/core';
 import { MenuController } from 'ionic-angular';
-//import {Navbar} from 'mint-ui';
 
 @Component({
   selector: 'page-home',
   templateUrl: 'home.html'
-  
 })
 export class HomePage {
- // @ViewChild(Navbar)navbar:Navbar;
-  constructor(public navCtrl: NavController,public menuCtrl:MenuController) {
-    
-  }
-  friendship:string="msg";
-  openMenu(){
-    this.menuCtrl.open();
-  }
-  goSub(){
-    this.navCtrl.push(HelloPage,{name:'liu'});
-  }
-  doInfinite(){
-    console.log("上拉刷新");
-  }
 
-  /*ionViewLoad(){
-    this.navbar.backButtonClick=()=>{
-      this.navCtrl.pop();
-    }
-    this.bk.setBackButtonText('首页');
-  }*/
+  constructor(public navCtrl: NavController,public menuCtrl:MenuController) {
+
+  }
+  
+  slides: string[] = ['推荐', '热点', '视频','手机','科技','问答','汽车','社会','数码'];//显示的数据
+  pageNumber: number = 6;//同时显示的个数
+  selectedIndex: number = 0;//默认选中的
 }

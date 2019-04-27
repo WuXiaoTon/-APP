@@ -1,36 +1,26 @@
-page-home {
-    ion-slides,ion-slide{
-        height:auto;
-    }
-    #list-buttons{
-        margin: 0 auto;
-        width:100%;
-    }
-    #title-search{
-        float:right;
-        line-height:40px;
-        padding-right:10px;
-        padding-top:5px;
-    }
-    ion-title img{
-        height:40px;
-        margin-right:20px;
-    }
-    ion-list button{
-        width: 24%;
-        padding:0 auto;
-    }
-    ion-list >div{
-        padding:0 5%;
-    }
+$slide-height-small: 4.2rem;
+$slide-height-large: 4.2rem;
+
+.slide-title {
+  width: 100%;
+  height: $slide-height-small;
+  color: #666666;
+  background-color: map_get($colors, primary);
+  padding: 0;
+  border-bottom:2px solid map_get($colors, light);
 }
-ion-title{
-    text-align: center;
+
+.slide-title-unit {
+  padding-bottom: 0.6rem;
+  font-size: 1.6rem;
+  color: white;
+  height: $slide-height-small;
+  line-height: $slide-height-small;
 }
-*{
-    padding: 0 auto;
-    margin: 0 auto;
+
+.slide-title-active {
+  border-bottom: 3px solid yellow;
+  color: yellow;
 }
-ion-list button{
-    background-color: #ffffff;
-}
+
+
